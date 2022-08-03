@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Dummy-Quiz-App/static/js/main.dfcbbb38.chunk.js",
+    "main.js.map": "/Dummy-Quiz-App/static/js/main.dfcbbb38.chunk.js.map",
+    "runtime-main.js": "/Dummy-Quiz-App/static/js/runtime-main.058bcfb7.js",
+    "runtime-main.js.map": "/Dummy-Quiz-App/static/js/runtime-main.058bcfb7.js.map",
+    "static/js/2.75849baa.chunk.js": "/Dummy-Quiz-App/static/js/2.75849baa.chunk.js",
+    "static/js/2.75849baa.chunk.js.map": "/Dummy-Quiz-App/static/js/2.75849baa.chunk.js.map",
+    "index.html": "/Dummy-Quiz-App/index.html",
+    "static/js/2.75849baa.chunk.js.LICENSE.txt": "/Dummy-Quiz-App/static/js/2.75849baa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.058bcfb7.js",
+    "static/js/2.75849baa.chunk.js",
+    "static/js/main.dfcbbb38.chunk.js"
+  ]
+}
