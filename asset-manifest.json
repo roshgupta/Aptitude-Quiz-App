@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/Dummy-Quiz-App/static/js/main.b00b3c8a.chunk.js",
-    "main.js.map": "/Dummy-Quiz-App/static/js/main.b00b3c8a.chunk.js.map",
-    "runtime-main.js": "/Dummy-Quiz-App/static/js/runtime-main.058bcfb7.js",
-    "runtime-main.js.map": "/Dummy-Quiz-App/static/js/runtime-main.058bcfb7.js.map",
-    "static/js/2.5c999bc1.chunk.js": "/Dummy-Quiz-App/static/js/2.5c999bc1.chunk.js",
-    "static/js/2.5c999bc1.chunk.js.map": "/Dummy-Quiz-App/static/js/2.5c999bc1.chunk.js.map",
-    "index.html": "/Dummy-Quiz-App/index.html",
-    "static/js/2.5c999bc1.chunk.js.LICENSE.txt": "/Dummy-Quiz-App/static/js/2.5c999bc1.chunk.js.LICENSE.txt"
+    "main.js": "/Aptitude-Quiz-App/static/js/main.b00b3c8a.chunk.js",
+    "main.js.map": "/Aptitude-Quiz-App/static/js/main.b00b3c8a.chunk.js.map",
+    "runtime-main.js": "/Aptitude-Quiz-App/static/js/runtime-main.7e9d5962.js",
+    "runtime-main.js.map": "/Aptitude-Quiz-App/static/js/runtime-main.7e9d5962.js.map",
+    "static/js/2.e6d1265a.chunk.js": "/Aptitude-Quiz-App/static/js/2.e6d1265a.chunk.js",
+    "static/js/2.e6d1265a.chunk.js.map": "/Aptitude-Quiz-App/static/js/2.e6d1265a.chunk.js.map",
+    "index.html": "/Aptitude-Quiz-App/index.html",
+    "static/js/2.e6d1265a.chunk.js.LICENSE.txt": "/Aptitude-Quiz-App/static/js/2.e6d1265a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.058bcfb7.js",
-    "static/js/2.5c999bc1.chunk.js",
+    "static/js/runtime-main.7e9d5962.js",
+    "static/js/2.e6d1265a.chunk.js",
     "static/js/main.b00b3c8a.chunk.js"
   ]
 }
