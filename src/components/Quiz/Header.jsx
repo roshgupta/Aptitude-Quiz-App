@@ -2,12 +2,12 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <StyledNav>
-      <Title>Gate Cs 2019 mock test</Title>
-      <Time>
+      <Title>Aptitute Quiz App</Title>
+      {/* <Time>
         <span className="time-left">Time left :</span>
         <span className="hour">01</span> :<span className="minute">40</span> :
         <span className="seconds">50</span>
-      </Time>
+      </Time> */}
     </StyledNav>
   );
 };

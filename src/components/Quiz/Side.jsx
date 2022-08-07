@@ -4,6 +4,7 @@ import { OutlinedButton } from "./Styled";
 import BlurCircularOutlinedIcon from "@material-ui/icons/BlurCircularOutlined";
 import useWindowDimensions from "../Util/useWindowDimensions";
 import CancelIcon from "@material-ui/icons/Cancel";
+import { Avatar } from "@material-ui/core";
 
 const Side = ({
   isSideBarOpen,
@@ -105,8 +106,8 @@ const Side = ({
     <>
       <Wrapper isSideBarOpen={isSideBarOpen} translate={translate}>
         <Name>
-          <img src="/checkout-placeholder.svg" alt="avatar" />
-          <p>Arjun Anil</p>
+          <Avatar />
+          <p>Roshan Gupta</p>
           <div className="cross" onClick={handleToggleClick}>
             <CancelIcon />
           </div>
@@ -251,6 +252,7 @@ const Name = styled.div`
   p {
     font-size: 20px;
     font-weight: 600;
+    margin-left: 8px;
   }
   //temporary
   .cross {

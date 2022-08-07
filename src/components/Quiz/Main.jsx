@@ -23,7 +23,39 @@ const Main = ({
     chemistry: false,
     maths: false,
   };
+  // const submitHandler = ()=>{
+  //   let data = updateStatusCount();
+  // }
+  // const updateStatusCount = () => {
+  //   let answeredCount = 0;
+  //   let markedCount = 0;
+  //   let notVisitedCount = 0;
+  //   let notAnsweredCount = 0;
+  //   let markedAnsweredCount = 0;
+  //   allQuestions.forEach((element) => {
+  //     switch (element.status) {
+  //       case "answered":
+  //         answeredCount++;
+  //         break;
+  //       case "marked":
+  //         markedCount++;
+  //         break;
+  //       case "not-visited":
+  //         notVisitedCount++;
+  //         break;
+  //       case "not-answered":
+  //         notAnsweredCount++;
+  //         break;
+  //       case "marked-answered":
+  //         markedAnsweredCount++;
+  //         break;
+  //       default:
+  //         return;
+  //     }
+  //     return {answeredCount,markedCount,notVisitedCount,notAnsweredCount,markedAnsweredCount}
+  //   });
   const [answer, setAnswer] = useState(null);
+  // const [score, setScore] = useState(null);
   let tempCurrentQues = {};
   const saveHandler = () => {
     if (answer !== null) {
@@ -85,7 +117,12 @@ const Main = ({
       setCurrentQuestion(allQuestions[currentQuestion.index + 1]);
       setAnswer(allQuestions[currentQuestion.index + 1].answered);
     } else {
-      //submit test
+      // allQuestions.forEach((ques) => {
+      //   if (ques.answer === ques.correctAnswer) {
+      //     setScore(score + 1);
+      //   }
+      // });
+      // console.log(allQuestions);
     }
   };
 
@@ -169,6 +206,7 @@ const Main = ({
       <QuestionElement
         currentQuestion={currentQuestion}
         setAnswer={setAnswer}
+        answer={answer}
       />
       <ButtonContainer>
         <Button onClick={saveHandler}>Save & Next</Button>
@@ -180,7 +218,7 @@ const Main = ({
   );
 };
 
-const QuestionElement = ({ currentQuestion, setAnswer }) => {
+const QuestionElement = ({ currentQuestion, setAnswer, answer }) => {
   return (
     <>
       {currentQuestion && (
@@ -198,6 +236,7 @@ const QuestionElement = ({ currentQuestion, setAnswer }) => {
                 <div className="option" key={index}>
                   <input
                     type="radio"
+                    checked={index === answer}
                     id={`ques_${currentQuestion.index}_option_${index}`}
                     name={`ques_${currentQuestion.index}_answer`}
                     value={`option_${index}`}
