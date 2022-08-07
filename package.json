@@ -1,7 +1,7 @@
 {
   "name": "quiz-app",
   "version": "0.1.0",
-  "homepage": "https://roshgupta.github.io/Dummy-Quiz-App",
+  "homepage": "https://roshgupta.github.io/Aptitude-Quiz-App",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
